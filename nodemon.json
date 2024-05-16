@@ -1,0 +1,10 @@
+{
+  "watch": ["."],
+  "ext": "js",
+  "ignore": [],
+  "exec": "npm link && homebridge -I -D",
+  "signal": "SIGTERM",
+  "env": {
+    "NODE_OPTIONS": "--trace-warnings"
+  }
+}
